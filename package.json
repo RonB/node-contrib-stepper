@@ -1,0 +1,22 @@
+{
+    "name"          : "node-stepper",
+    "version"       : "0.0.1",
+    "description"   : "A Node-RED node that extracts Exif information from JPEG image buffers.",
+    "dependencies"  : {
+        "stepper-wiringpi": "0.0.2"
+    },
+    "repository" : {
+        "type":"git",
+        "url":"https://github.com/RonB/node-stepper.git"
+    },
+    "license": "MIT",
+    "keywords": [ "node-red", "stepper", "gpio"],
+    "node-red"      : {
+        "nodes"     : {
+            "stepper": "stepper.js"
+        }
+    },
+    "contributors": [
+        {"name": "Ronald Brinkerink"}
+    ]
+}
