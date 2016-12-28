@@ -4,9 +4,9 @@ module.exports = function(RED) {
     function Stepper(config) {
         RED.nodes.createNode(this,config);
         var node = this;
-        var motor = StepperWiringPi.setup(16, 2, 3, 4);
+        var motor = StepperWiringPi.setup(48, 2);
         this.on('input', function(msg) {
-            msg.payload  = motor.forward();
+            msg.payload  = motor ? true : false;
             node.send(msg);
         });
     }
