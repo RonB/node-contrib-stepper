@@ -2,9 +2,7 @@
     "name"          : "node-stepper",
     "version"       : "0.0.1",
     "description"   : "A Node-RED node that wraps a stepper motor using the stepper-wiringpi library for a raspberry pi",
-    "dependencies"  : {
-        "stepper-wiringpi": "0.0.2"
-    },
+    
     "repository" : {
         "type":"git",
         "url":"https://github.com/RonB/node-stepper.git"
